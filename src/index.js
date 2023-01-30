@@ -6,11 +6,10 @@ import ProductProvider from './contexts/ProductContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+  <ProductProvider>
     <React.StrictMode>
-      <ProductProvider>
     <App />
-    </ProductProvider>
   </React.StrictMode>
+  </ProductProvider>
   
 );
