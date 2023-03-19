@@ -6,7 +6,6 @@ import { ProductContext } from '../contexts/ProductContext';
 const Home = () => {
   // get products from products contex
   const products = useContext(ProductContext);
-  console.log(products)
   // get only mens & womens clothing category
   const filterProducts = products?.filter((item) => {
     return (
